@@ -58,6 +58,9 @@ RUN /script/install_cpptools.sh
 ADD install_zsh531.sh /script/
 RUN /script/install_zsh531.sh
 
+ADD install_ninja172.sh /script/
+RUN /script/install_ninja172.sh
+
 # Add root files
 ADD .bashrc /root/.bashrc
 
